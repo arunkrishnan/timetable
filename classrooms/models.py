@@ -23,6 +23,9 @@ class ClassRoom(LogicalDeleteModel):
     division = models.CharField(max_length=3)
     school = models.ForeignKey(School, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return f"{self.standard} {self.division}"
+
 
 class Teacher(LogicalDeleteModel):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -45,10 +48,16 @@ class Subject(BaseModel):
     name = models.CharField(max_length=150)
     code = models.CharField(max_length=4)
 
+    def __str__(self):
+        return self.name
+
 
 class SubjectTeacher(BaseModel):
     subject = models.ForeignKey(Subject, on_delete=models.CASCADE)
     teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return f"{self.subject.name}-{self.teacher.first_name}"
 
 
 class Period(LogicalDeleteModel):

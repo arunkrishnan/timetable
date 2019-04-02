@@ -5,6 +5,7 @@ from django.db import models
 from djchoices import DjangoChoices, ChoiceItem
 
 from schools.models import School
+from utils.futils import get_current_year
 from utils.model_templates import LogicalDeleteModel, BaseModel
 
 
@@ -69,6 +70,13 @@ class Period(LogicalDeleteModel):
         validators=[MinValueValidator(1), MaxValueValidator(8)]
     )
     subject = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)
+    admission_year = models.IntegerField(default=get_current_year)
 
     class Meta:
-        unique_together = ("classroom", "weekday", "period_number")
+        unique_together = ("classroom", "weekday", "period_number", "admission_year")
+
+
+class PeriodAdjustment(LogicalDeleteModel):
+    adjusted_date = models.DateField()
+    period = models.ForeignKey(Period, on_delete=models.CASCADE)
+    adjusted_by = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)

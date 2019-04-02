@@ -1,6 +1,13 @@
 from django.contrib import admin
 
-from classrooms.models import ClassRoom, Teacher, Subject, SubjectTeacher, Period
+from classrooms.models import (
+    ClassRoom,
+    Teacher,
+    Subject,
+    SubjectTeacher,
+    Period,
+    PeriodAdjustment,
+)
 
 
 class ClassRoomAdmin(admin.ModelAdmin):
@@ -37,10 +44,30 @@ class SubjectTeacherAdmin(admin.ModelAdmin):
 
 class PeriodAdmin(admin.ModelAdmin):
     model = Period
-    list_display = ("classroom", "weekday", "period_number", "subject")
-    list_filter = ("classroom", "weekday", "period_number", "subject")
-    search_fields = ("classroom", "weekday", "period_number", "subject")
-    ordering = ("classroom", "weekday", "period_number", "subject")
+    list_display = (
+        "classroom",
+        "weekday",
+        "period_number",
+        "subject",
+        "admission_year",
+    )
+    list_filter = ("classroom", "weekday", "period_number", "subject", "admission_year")
+    search_fields = (
+        "classroom",
+        "weekday",
+        "period_number",
+        "subject",
+        "admission_year",
+    )
+    ordering = ("classroom", "weekday", "period_number", "subject", "admission_year")
+
+
+class PeriodAdjustmentAdmin(admin.ModelAdmin):
+    model = PeriodAdjustment
+    list_display = ("adjusted_date", "period", "adjusted_by")
+    list_filter = ("adjusted_date", "period", "adjusted_by")
+    search_fields = ("adjusted_date", "period", "adjusted_by")
+    ordering = ("adjusted_date", "period", "adjusted_by")
 
 
 admin.site.register(ClassRoom, ClassRoomAdmin)
@@ -48,3 +75,4 @@ admin.site.register(Teacher, TeacherAdmin)
 admin.site.register(Subject, SubjectAdmin)
 admin.site.register(SubjectTeacher, SubjectTeacherAdmin)
 admin.site.register(Period, PeriodAdmin)
+admin.site.register(PeriodAdjustment, PeriodAdjustmentAdmin)

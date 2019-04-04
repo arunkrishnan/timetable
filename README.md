@@ -31,3 +31,22 @@ if the designated teacher is not available.
 * Filter teachers while searching by name
 
     ```/?school__code=school_code&first_name__contains=asd```
+
+
+#####Periods
+    /api/v0/periods
+* To list time table for a class
+
+    ```/?admission=year&classroom=classroom_id```
+
+* To list time table for a class of a day
+
+    ```/?admission=year&classroom=classroom_id&weekday=1```
+        
+        1 for Monday
+        6 for Saturday
+
+* To list schedule of a teacher on a particular day
+
+    ```/?admission=year&weekday=1&teacher=teacher_id```
+ 

@@ -46,6 +46,15 @@ class SubjectTeacherViewSet(ModelViewSet):
     serializer_class = SubjectTeacherSerializer
 
 
+class PeriodFilter(filters.FilterSet):
+    teacher = filters.CharFilter(field_name="subject_teacher__teacher")
+
+    class Meta:
+        model = Period
+        fields = ["weekday", "admission_year", "teacher", "classroom"]
+
+
 class PeriodViewSet(ModelViewSet):
     queryset = Period.objects.all()
     serializer_class = PeriodSerializer
+    filterset_class = PeriodFilter

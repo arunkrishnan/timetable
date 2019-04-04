@@ -19,3 +19,15 @@ if the designated teacher is not available.
  
 ### Testing
     python manage.py test
+
+
+###APIs
+
+#####Teachers
+    /api/v0/teachers
+* To list all teachers of a school with code school_code
+
+    ```/?school__code=school_code```
+* Filter teachers while searching by name
+
+    ```/?school__code=school_code&first_name__contains=asd```

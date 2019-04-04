@@ -28,7 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-# Application definition
+THIRD_PARTY_APPS = ["rest_framework", "django_filters"]
+
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -40,7 +41,7 @@ INSTALLED_APPS = [
     "users",
     "schools",
     "classrooms",
-]
+] + THIRD_PARTY_APPS
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
@@ -117,3 +118,15 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 AUTH_USER_MODEL = "users.CustomUser"
+
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly"
+    ],
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
+    "DEFAULT_FILTER_BACKENDS": ("django_filters.rest_framework.DjangoFilterBackend",),
+}

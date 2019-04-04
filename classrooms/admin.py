@@ -20,10 +20,10 @@ class ClassRoomAdmin(admin.ModelAdmin):
 
 class TeacherAdmin(admin.ModelAdmin):
     model = Teacher
-    list_display = ("teacher_code", "school", "first_name", "email")
-    list_filter = ("teacher_code", "school", "first_name", "email")
-    search_fields = ("teacher_code", "school", "first_name", "email")
-    ordering = ("teacher_code", "school", "first_name", "email")
+    list_display = ("code", "school", "first_name", "email")
+    list_filter = ("code", "school", "first_name", "email")
+    search_fields = ("code", "school", "first_name", "email")
+    ordering = ("code", "school", "first_name", "email")
 
 
 class SubjectAdmin(admin.ModelAdmin):
@@ -48,18 +48,18 @@ class PeriodAdmin(admin.ModelAdmin):
         "classroom",
         "weekday",
         "period_number",
-        "subject",
+        "subject_teacher",
         "admission_year",
     )
-    list_filter = ("classroom", "weekday", "period_number", "subject", "admission_year")
+    list_filter = ("classroom", "weekday", "period_number", "subject_teacher", "admission_year")
     search_fields = (
         "classroom",
         "weekday",
         "period_number",
-        "subject",
+        "subject_teacher",
         "admission_year",
     )
-    ordering = ("classroom", "weekday", "period_number", "subject", "admission_year")
+    ordering = ("classroom", "weekday", "period_number", "subject_teacher", "admission_year")
 
 
 class PeriodAdjustmentAdmin(admin.ModelAdmin):

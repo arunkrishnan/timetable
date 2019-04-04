@@ -30,7 +30,7 @@ class ClassRoom(LogicalDeleteModel):
 
 class Teacher(LogicalDeleteModel):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    teacher_code = models.CharField(max_length=100, null=True, blank=True)
+    code = models.CharField(max_length=100, null=True, blank=True)
     school = models.ForeignKey(School, on_delete=models.CASCADE)
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=150, null=True, blank=True)
@@ -69,7 +69,7 @@ class Period(LogicalDeleteModel):
     period_number = models.IntegerField(
         validators=[MinValueValidator(1), MaxValueValidator(8)]
     )
-    subject = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)
+    subject_teacher = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)
     admission_year = models.IntegerField(default=get_current_year)
 
     class Meta:

@@ -1,6 +1,9 @@
 from django_filters import rest_framework as filters
+from rest_framework.decorators import action
+from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
+from classrooms.helpers import available_teachers_for_the_period
 from classrooms.models import Period, SubjectTeacher, ClassRoom, Teacher, Subject
 from classrooms.serializers import (
     PeriodSerializer,
@@ -58,3 +61,21 @@ class PeriodViewSet(ModelViewSet):
     queryset = Period.objects.all()
     serializer_class = PeriodSerializer
     filterset_class = PeriodFilter
+
+    @action(
+        detail=True,
+        url_path="free-teachers",
+        methods=["get"],
+        serializer_class=TeacherSerializer,
+    )
+    def get_available_teachers(self, request, pk=None):
+        period = self.get_object()
+        teachers = available_teachers_for_the_period(period)
+        page = self.paginate_queryset(teachers)
+
+        if page is not None:
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+
+        serializer = self.get_serializer(teachers, many=True)
+        return Response(serializer.data)

@@ -12,7 +12,7 @@ if the designated teacher is not available.
 * Setup virtual environment
     * virtualenv venv -p python3
     * source venv/bin/activate
-* pip install requirements.txt 
+* pip install -r requirements.txt 
 
 ### Execute the program
     python manage.py runserver
@@ -50,3 +50,6 @@ if the designated teacher is not available.
 
     ```/?admission=year&weekday=1&teacher=teacher_id```
  
+ * To list available teachers for replacement for a particular period, period_id
+    
+    ```/period_id/free-teachers/```

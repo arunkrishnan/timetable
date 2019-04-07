@@ -37,4 +37,4 @@ class PeriodSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Period
-        fields = ("id", "weekday", "classroom", "subject_teacher")
+        fields = ("id", "weekday", "classroom", "period_number", "subject_teacher")

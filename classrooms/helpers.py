@@ -1,4 +1,4 @@
-from typing import List, Set
+from typing import List, Set, Dict
 
 from classrooms.models import Teacher, Period, ClassRoom, SubjectTeacher
 
@@ -32,3 +32,39 @@ def available_teachers_for_the_period(period: Period) -> List[Teacher]:
         class_teachers, period.weekday, period.period_number, admission_year
     )
     return teachers
+
+
+def get_period_adjustment_insights(period: Period, teacher: Teacher) -> Dict:
+    insights = {}
+    classroom = period.classroom
+    weekday = period.weekday
+    period_number = period.period_number
+    admission_year = period.admission_year
+
+    subject_teachers = SubjectTeacher.objects.filter(teacher=teacher)
+    insights["total_periods_allotted"] = Period.objects.filter(
+        weekday=weekday,
+        admission_year=admission_year,
+        subject_teacher__in=subject_teachers,
+    ).count()
+
+    insights["periods_in_the_same_class"] = Period.objects.filter(
+        weekday=weekday,
+        classroom=classroom,
+        admission_year=admission_year,
+        subject_teacher__in=subject_teachers,
+    ).count()
+    insights["had_class_in_previous_period"] = Period.objects.filter(
+        weekday=weekday,
+        period_number=period_number - 1,
+        admission_year=admission_year,
+        subject_teacher__in=subject_teachers,
+    ).exists()
+    insights["have_class_in_next_period"] = Period.objects.filter(
+        weekday=weekday,
+        period_number=period_number - 1,
+        admission_year=admission_year,
+        subject_teacher__in=subject_teachers,
+    ).exists()
+
+    return insights

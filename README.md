@@ -50,6 +50,10 @@ if the designated teacher is not available.
 
     ```/?admission=year&weekday=1&teacher=teacher_id```
  
- * To list available teachers for replacement for a particular period, period_id
+* To list available teachers for replacement for a particular period, period_id
     
     ```/period_id/free-teachers/```
+
+* To list insights regarding period adjustment of period_id with teacher_id
+
+    ```/period_id/insights/?teacher_id=teacher_id```

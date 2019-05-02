@@ -11,13 +11,21 @@ from classrooms.helpers import (
     available_teachers_for_the_period,
     get_period_adjustment_insights,
 )
-from classrooms.models import Period, SubjectTeacher, ClassRoom, Teacher, Subject
+from classrooms.models import (
+    Period,
+    SubjectTeacher,
+    ClassRoom,
+    Teacher,
+    Subject,
+    PeriodAdjustment,
+)
 from classrooms.serializers import (
     PeriodSerializer,
     SubjectTeacherSerializer,
     ClassRoomSerializer,
     TeacherSerializer,
     SubjectSerializer,
+    PeriodAdjustmentSerializer,
 )
 
 
@@ -108,3 +116,8 @@ class PeriodViewSet(ModelViewSet):
         insights = get_period_adjustment_insights(period, teacher)
 
         return Response(insights, status=200)
+
+
+class PeriodAdjustmentViewSet(ModelViewSet):
+    queryset = PeriodAdjustment.objects.all()
+    serializer_class = PeriodAdjustmentSerializer

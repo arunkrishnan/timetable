@@ -23,6 +23,7 @@ from classrooms.views import (
     ClassRoomViewSet,
     TeacherViewSet,
     SubjectViewSet,
+    PeriodAdjustmentViewSet,
 )
 from users.views import UserViewSet
 
@@ -33,6 +34,7 @@ router.register(r"teachers", TeacherViewSet)
 router.register(r"subjects", SubjectViewSet)
 router.register(r"subject-teachers", SubjectTeacherViewSet)
 router.register(r"periods", PeriodViewSet)
+router.register(r"period-adjustments", PeriodAdjustmentViewSet)
 
 
 urlpatterns = [

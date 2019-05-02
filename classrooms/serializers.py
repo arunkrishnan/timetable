@@ -1,6 +1,13 @@
 from rest_framework import serializers
 
-from classrooms.models import Period, SubjectTeacher, ClassRoom, Teacher, Subject
+from classrooms.models import (
+    Period,
+    SubjectTeacher,
+    ClassRoom,
+    Teacher,
+    Subject,
+    PeriodAdjustment,
+)
 
 
 class ClassRoomSerializer(serializers.ModelSerializer):
@@ -38,3 +45,9 @@ class PeriodSerializer(serializers.ModelSerializer):
     class Meta:
         model = Period
         fields = ("id", "weekday", "classroom", "period_number", "subject_teacher")
+
+
+class PeriodAdjustmentSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = PeriodAdjustment
+        fields = ("id", "adjusted_date", "period", "adjusted_by")

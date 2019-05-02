@@ -11,7 +11,7 @@ def get_teachers_of_class(classroom: ClassRoom, admission_year: int) -> Set[Teac
 
 def available_teachers(
     teachers: Set[Teacher], weekday: int, period_number: int, admission_year: int
-) -> List[Teacher]:
+) -> List[SubjectTeacher]:
     free_teachers = []
     for teacher in teachers:
         subject_teachers = SubjectTeacher.objects.filter(teacher=teacher)
@@ -21,11 +21,11 @@ def available_teachers(
             period_number=period_number,
             subject_teacher__in=subject_teachers,
         ).exists():
-            free_teachers.append(teacher)
+            free_teachers.append(subject_teachers[0])
     return free_teachers
 
 
-def available_teachers_for_the_period(period: Period) -> List[Teacher]:
+def available_teachers_for_the_period(period: Period) -> List[SubjectTeacher]:
     admission_year = period.admission_year
     class_teachers = get_teachers_of_class(period.classroom, admission_year)
     teachers = available_teachers(

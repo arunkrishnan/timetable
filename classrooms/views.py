@@ -78,7 +78,7 @@ class PeriodViewSet(ModelViewSet):
         detail=True,
         url_path="free-teachers",
         methods=["get"],
-        serializer_class=TeacherSerializer,
+        serializer_class=SubjectTeacherSerializer,
     )
     def get_available_teachers(self, request, pk=None):
         period = self.get_object()

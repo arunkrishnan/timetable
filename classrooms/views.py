@@ -74,7 +74,20 @@ class PeriodFilter(filters.FilterSet):
 
     def filter_by_date(self, queryset, name, value):
         day = datetime.strptime(value, "%Y-%m-%d").isoweekday() % 7
-        return queryset.filter(weekday=day)
+        queryset = queryset.filter(weekday=day)
+        period_adjustments = PeriodAdjustment.objects.filter(
+            adjusted_date=value, period__in=queryset
+        )
+        if not period_adjustments:
+            return queryset
+
+        adjusted_periods = [adjustment.period for adjustment in period_adjustments]
+        for period in queryset:
+            if period in adjusted_periods:
+                period.subject_teacher = PeriodAdjustment.objects.get(
+                    adjusted_date=value, period=period
+                ).adjusted_by
+        return queryset
 
 
 class PeriodViewSet(ModelViewSet):

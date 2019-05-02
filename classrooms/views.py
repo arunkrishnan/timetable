@@ -90,7 +90,17 @@ class PeriodViewSet(ModelViewSet):
     )
     def get_available_teachers(self, request, pk=None):
         period = self.get_object()
-        teachers = available_teachers_for_the_period(period)
+        try:
+            date = request.query_params["date"]
+            date_obj = datetime.strptime(date, "%Y-%m-%d")
+            weekday = date_obj.isoweekday() % 7
+            if not weekday == period.weekday:
+                return Response("Date and period object doesn't match", HTTP_400_BAD_REQUEST)
+        except KeyError:
+            return Response(
+                "Date is missing in the request", HTTP_400_BAD_REQUEST
+            )
+        teachers = available_teachers_for_the_period(period, date_obj)
         page = self.paginate_queryset(teachers)
 
         if page is not None:

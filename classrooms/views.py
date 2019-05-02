@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from django.core.exceptions import ValidationError
 from django_filters import rest_framework as filters
 from rest_framework.decorators import action
@@ -56,14 +58,19 @@ class SubjectTeacherViewSet(ModelViewSet):
 
 class PeriodFilter(filters.FilterSet):
     teacher = filters.CharFilter(field_name="subject_teacher__teacher")
+    date = filters.CharFilter(method="filter_by_date")
 
     class Meta:
         model = Period
         fields = ["weekday", "admission_year", "teacher", "classroom"]
 
+    def filter_by_date(self, queryset, name, value):
+        day = datetime.strptime(value, "%Y-%m-%d").isoweekday() % 7
+        return queryset.filter(weekday=day)
+
 
 class PeriodViewSet(ModelViewSet):
-    queryset = Period.objects.all()
+    queryset = Period.objects.all().order_by("-id")
     serializer_class = PeriodSerializer
     filterset_class = PeriodFilter
 

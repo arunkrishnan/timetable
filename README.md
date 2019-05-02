@@ -46,9 +46,11 @@ if the designated teacher is not available.
         1 for Monday
         6 for Saturday
 
+    ```/?admission=year&classroom=classroom_id&date=2019-12-20```
+
 * To list schedule of a teacher on a particular day
 
-    ```/?admission=year&weekday=1&teacher=teacher_id```
+    ```/?admission=year&date=2019-12-20&teacher=teacher_id```
  
 * To list available teachers for replacement for a particular period, period_id
     

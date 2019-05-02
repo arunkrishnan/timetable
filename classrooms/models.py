@@ -80,3 +80,6 @@ class PeriodAdjustment(LogicalDeleteModel):
     adjusted_date = models.DateField()
     period = models.ForeignKey(Period, on_delete=models.CASCADE)
     adjusted_by = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ("adjusted_date", "period")

@@ -95,11 +95,11 @@ class PeriodViewSet(ModelViewSet):
             date_obj = datetime.strptime(date, "%Y-%m-%d")
             weekday = date_obj.isoweekday() % 7
             if not weekday == period.weekday:
-                return Response("Date and period object doesn't match", HTTP_400_BAD_REQUEST)
+                return Response(
+                    "Date and period object doesn't match", HTTP_400_BAD_REQUEST
+                )
         except KeyError:
-            return Response(
-                "Date is missing in the request", HTTP_400_BAD_REQUEST
-            )
+            return Response("Date is missing in the request", HTTP_400_BAD_REQUEST)
         teachers = available_teachers_for_the_period(period, date_obj)
         page = self.paginate_queryset(teachers)
 
@@ -128,6 +128,15 @@ class PeriodViewSet(ModelViewSet):
         return Response(insights, status=200)
 
 
+class PeriodAdjustmentFilter(filters.FilterSet):
+    date = filters.CharFilter(field_name="adjusted_date")
+
+    class Meta:
+        model = PeriodAdjustment
+        fields = ["date"]
+
+
 class PeriodAdjustmentViewSet(ModelViewSet):
-    queryset = PeriodAdjustment.objects.all()
+    queryset = PeriodAdjustment.objects.all().order_by("-id")
     serializer_class = PeriodAdjustmentSerializer
+    filterset_class = PeriodAdjustmentFilter

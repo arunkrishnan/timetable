@@ -54,8 +54,19 @@ if the designated teacher is not available.
  
 * To list available teachers for replacement for a particular period, period_id
     
-    ```/period_id/free-teachers/```
+    ```/period_id/free-teachers/?date=Y-m-d```
+
+        Date is a mandatory argument for this api
+        Date is used to filter out the teachers who has an extra period adjustment on same day same period.
 
 * To list insights regarding period adjustment of period_id with teacher_id
 
     ```/period_id/insights/?teacher_id=teacher_id```
+
+
+#####Period Adjustment
+    /api/v0/period-adjustments
+
+* List all period adjustments of a day
+
+    ```/?date=Y-m-d```

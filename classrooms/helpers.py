@@ -52,7 +52,9 @@ def available_teachers_for_the_period(
     return teachers
 
 
-def get_period_adjustment_insights(period: Period, teacher: Teacher) -> Dict:
+def get_period_adjustment_insights(
+    period: Period, teacher: Teacher, date: datetime
+) -> Dict:
     insights = {}
     classroom = period.classroom
     weekday = period.weekday
@@ -72,17 +74,23 @@ def get_period_adjustment_insights(period: Period, teacher: Teacher) -> Dict:
         admission_year=admission_year,
         subject_teacher__in=subject_teachers,
     ).count()
+
     insights["had_class_in_previous_period"] = Period.objects.filter(
         weekday=weekday,
         period_number=period_number - 1,
         admission_year=admission_year,
         subject_teacher__in=subject_teachers,
     ).exists()
+
     insights["have_class_in_next_period"] = Period.objects.filter(
         weekday=weekday,
         period_number=period_number - 1,
         admission_year=admission_year,
         subject_teacher__in=subject_teachers,
     ).exists()
+
+    insights["extra_periods_on_the_same_day"] = PeriodAdjustment.objects.filter(
+        adjusted_date=date, adjusted_by=teacher
+    )
 
     return insights

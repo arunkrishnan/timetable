@@ -61,7 +61,7 @@ if the designated teacher is not available.
 
 * To list insights regarding period adjustment of period_id with teacher_id
 
-    ```/period_id/insights/?teacher_id=teacher_id```
+    ```/period_id/insights/?teacher_id=teacher_id&date=Y-m-d```
 
 
 #####Period Adjustment

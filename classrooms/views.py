@@ -113,17 +113,21 @@ class PeriodViewSet(ModelViewSet):
     @action(detail=True, url_path="insights", methods=["get"])
     def get_insights(self, request, pk=None):
         period = self.get_object()
-        teacher_id = request.GET.get("teacher_id")
-        if not teacher_id:
+        try:
+            teacher_id = request.query_params[
+                "teacher_id"
+            ]  # The teacher who going to replace the period
+            date = request.query_params["date"]
+        except KeyError:
             return Response(
-                "Teacher id is missing in the request", HTTP_400_BAD_REQUEST
+                "Teacher id / date is missing in the request", HTTP_400_BAD_REQUEST
             )
         try:
             teacher = Teacher.objects.get(id=teacher_id)
         except (ValidationError, Teacher.DoesNotExist):
             return Response("Wrong Teacher id in the request", HTTP_400_BAD_REQUEST)
 
-        insights = get_period_adjustment_insights(period, teacher)
+        insights = get_period_adjustment_insights(period, teacher, date)
 
         return Response(insights, status=200)
 

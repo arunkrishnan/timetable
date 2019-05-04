@@ -27,6 +27,7 @@ from classrooms.serializers import (
     SubjectSerializer,
     PeriodAdjustmentSerializer,
 )
+from utils.futils import get_current_admission_year
 
 
 class ClassRoomViewSet(ModelViewSet):
@@ -91,7 +92,7 @@ class PeriodFilter(filters.FilterSet):
 
 
 class PeriodViewSet(ModelViewSet):
-    queryset = Period.objects.all().order_by("-id")
+    queryset = Period.objects.filter(admission_year=get_current_admission_year()).order_by("-id")
     serializer_class = PeriodSerializer
     filterset_class = PeriodFilter
 

@@ -21,9 +21,9 @@ if the designated teacher is not available.
     python manage.py test
 
 
-###APIs
+### APIs
 
-#####Teachers
+##### Teachers
     /api/v0/teachers
 * To list all teachers of a school with code school_code
 
@@ -33,7 +33,7 @@ if the designated teacher is not available.
     ```/?school__code=school_code&first_name__contains=asd```
 
 
-#####Periods
+##### Periods
     /api/v0/periods
 * To list time table for a class
 
@@ -64,7 +64,7 @@ if the designated teacher is not available.
     ```/period_id/insights/?teacher_id=teacher_id&date=Y-m-d```
 
 
-#####Period Adjustment
+##### Period Adjustment
     /api/v0/period-adjustments
 
 * List all period adjustments of a day

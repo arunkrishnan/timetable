@@ -1,6 +1,8 @@
 from django.utils import timezone
 
 
-def get_current_year():
+def get_current_admission_year():
     today = timezone.now()
-    return today.year
+    if today.month < 5:
+        return today.year
+    return today.year + 1

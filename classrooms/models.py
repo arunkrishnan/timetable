@@ -5,7 +5,7 @@ from django.db import models
 from djchoices import DjangoChoices, ChoiceItem
 
 from schools.models import School
-from utils.futils import get_current_year
+from utils.futils import get_current_admission_year
 from utils.model_templates import LogicalDeleteModel, BaseModel
 
 
@@ -70,7 +70,7 @@ class Period(LogicalDeleteModel):
         validators=[MinValueValidator(1), MaxValueValidator(8)]
     )
     subject_teacher = models.ForeignKey(SubjectTeacher, on_delete=models.CASCADE)
-    admission_year = models.IntegerField(default=get_current_year)
+    admission_year = models.IntegerField(default=get_current_admission_year)
 
     class Meta:
         unique_together = ("classroom", "weekday", "period_number", "admission_year")

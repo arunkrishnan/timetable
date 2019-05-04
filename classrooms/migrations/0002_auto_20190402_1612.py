@@ -15,7 +15,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='period',
             name='admission_year',
-            field=models.IntegerField(default=utils.futils.get_current_year),
+            field=models.IntegerField(default=utils.futils.get_current_admission_year),
         ),
         migrations.AlterUniqueTogether(
             name='period',

@@ -1,5 +1,6 @@
 import uuid
 
+from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from djchoices import DjangoChoices, ChoiceItem
@@ -74,6 +75,33 @@ class Period(LogicalDeleteModel):
 
     class Meta:
         unique_together = ("classroom", "weekday", "period_number", "admission_year")
+
+    def clean(self, *args, **kwargs):
+        teacher_id = self.subject_teacher.teacher
+        subject_teachers = SubjectTeacher.objects.filter(teacher=teacher_id)
+        if (
+            Period.objects.filter(
+                weekday=self.weekday,
+                period_number=self.period_number,
+                subject_teacher__in=subject_teachers,
+                admission_year=self.admission_year,
+            )
+            .exclude(pk=self.pk)
+            .exists()
+        ):
+            period = Period.objects.get(
+                weekday=self.weekday,
+                period_number=self.period_number,
+                subject_teacher__in=subject_teachers,
+                admission_year=self.admission_year,
+            )
+            raise ValidationError(f"Teacher already has a period {period.id}")
+
+        super().clean(*args, **kwargs)
+
+    def save(self, *args, **kwargs):
+        self.full_clean()
+        super().save(*args, **kwargs)
 
 
 class PeriodAdjustment(LogicalDeleteModel):

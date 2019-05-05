@@ -55,6 +55,9 @@ class ClassRoom(LogicalDeleteModel):
     def __str__(self):
         return f"{self.standard} {self.division}"
 
+    class Meta:
+        unique_together = ("standard", "division", "school")
+
 
 class Teacher(LogicalDeleteModel):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
@@ -75,7 +78,7 @@ class Teacher(LogicalDeleteModel):
 
 class Subject(BaseModel):
     name = models.CharField(max_length=150)
-    code = models.CharField(max_length=4)
+    code = models.CharField(max_length=4, unique=True)
 
     def __str__(self):
         return self.name

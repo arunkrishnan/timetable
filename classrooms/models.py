@@ -1,6 +1,6 @@
 import uuid
 
-from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
+from django.core.exceptions import ValidationError
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from djchoices import DjangoChoices, ChoiceItem
@@ -8,6 +8,33 @@ from djchoices import DjangoChoices, ChoiceItem
 from schools.models import School
 from utils.futils import get_current_admission_year
 from utils.model_templates import LogicalDeleteModel, BaseModel
+
+
+def validate_teacher_has_no_other_period(self):
+    teacher_id = self.subject_teacher.teacher
+    subject_teachers = SubjectTeacher.objects.filter(teacher=teacher_id)
+    if (
+        Period.objects.filter(
+            weekday=self.weekday,
+            period_number=self.period_number,
+            subject_teacher__in=subject_teachers,
+            admission_year=self.admission_year,
+        )
+        .exclude(pk=self.pk)
+        .exists()
+    ):
+        period = Period.objects.get(
+            weekday=self.weekday,
+            period_number=self.period_number,
+            subject_teacher__in=subject_teachers,
+            admission_year=self.admission_year,
+        )
+        raise ValidationError(f"Teacher already has a period {period.id}")
+
+
+def validate_same_school(self):
+    if not self.subject_teacher.teacher.school == self.classroom.school:
+        raise ValidationError(f"Teacher does not belongs to the same school")
 
 
 class WeekDay(DjangoChoices):
@@ -77,26 +104,8 @@ class Period(LogicalDeleteModel):
         unique_together = ("classroom", "weekday", "period_number", "admission_year")
 
     def clean(self, *args, **kwargs):
-        teacher_id = self.subject_teacher.teacher
-        subject_teachers = SubjectTeacher.objects.filter(teacher=teacher_id)
-        if (
-            Period.objects.filter(
-                weekday=self.weekday,
-                period_number=self.period_number,
-                subject_teacher__in=subject_teachers,
-                admission_year=self.admission_year,
-            )
-            .exclude(pk=self.pk)
-            .exists()
-        ):
-            period = Period.objects.get(
-                weekday=self.weekday,
-                period_number=self.period_number,
-                subject_teacher__in=subject_teachers,
-                admission_year=self.admission_year,
-            )
-            raise ValidationError(f"Teacher already has a period {period.id}")
-
+        validate_teacher_has_no_other_period(self)
+        validate_same_school(self)
         super().clean(*args, **kwargs)
 
     def save(self, *args, **kwargs):

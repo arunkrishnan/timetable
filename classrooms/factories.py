@@ -19,7 +19,7 @@ class TeacherFactory(factory.DjangoModelFactory):
     class Meta:
         model = Teacher
 
-    teacher_code = factory.Faker("user_name")
+    code = factory.Faker("user_name")
     school = factory.SubFactory(SchoolFactory)
     first_name = factory.Faker("first_name")
     last_name = factory.Faker("last_name")
@@ -40,7 +40,7 @@ class SubjectTeacherFactory(factory.DjangoModelFactory):
         model = SubjectTeacher
 
     teacher = factory.SubFactory(TeacherFactory)
-    subject = factory.SubFactory(SubjectTeacher)
+    subject = factory.SubFactory(SubjectFactory)
 
 
 class PeriodFactory(factory.DjangoModelFactory):
@@ -50,4 +50,4 @@ class PeriodFactory(factory.DjangoModelFactory):
     classroom = factory.SubFactory(ClassRoomFactory)
     weekday = factory.LazyAttribute(lambda n: str(randint(1, 7)))
     period_number = factory.LazyAttribute(lambda n: str(randint(1, 7)))
-    subject = factory.SubFactory(SubjectTeacher)
+    subject_teacher = factory.SubFactory(SubjectTeacherFactory)

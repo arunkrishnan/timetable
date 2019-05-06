@@ -59,9 +59,9 @@ if the designated teacher is not available.
         Date is a mandatory argument for this api
         Date is used to filter out the teachers who has an extra period adjustment on same day same period.
 
-* To list insights regarding period adjustment of period_id with teacher_id
+* To list insights regarding period adjustment of period_id with subject_teacher_id
 
-    ```/period_id/insights/?teacher_id=teacher_id&date=Y-m-d```
+    ```/period_id/insights/?tsubject_eacher_id=subject_teacher_id&date=Y-m-d```
 
 
 ##### Period Adjustment
@@ -70,3 +70,17 @@ if the designated teacher is not available.
 * List all period adjustments of a day
 
     ```/?date=Y-m-d```
+
+* Add a new adjustment
+
+    ``` POST /api/v0/period-adjustments```
+    with payload
+
+    ```
+        {
+            "adjusted_date": "2019-12-31",
+            "period": 1,
+            "adjusted_by": 22
+        }
+
+    ```

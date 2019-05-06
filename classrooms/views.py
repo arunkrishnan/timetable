@@ -92,7 +92,9 @@ class PeriodFilter(filters.FilterSet):
 
 
 class PeriodViewSet(ModelViewSet):
-    queryset = Period.objects.filter(admission_year=get_current_admission_year()).order_by("-id")
+    queryset = Period.objects.filter(
+        admission_year=get_current_admission_year()
+    ).order_by("-id")
     serializer_class = PeriodSerializer
     filterset_class = PeriodFilter
 
@@ -128,18 +130,19 @@ class PeriodViewSet(ModelViewSet):
     def get_insights(self, request, pk=None):
         period = self.get_object()
         try:
-            teacher_id = request.query_params[
-                "teacher_id"
+            subject_teacher_id = request.query_params[
+                "subject_teacher_id"
             ]  # The teacher who going to replace the period
             date = request.query_params["date"]
         except KeyError:
             return Response(
-                "Teacher id / date is missing in the request", HTTP_400_BAD_REQUEST
+                "Subject teacher id / date is missing in the request",
+                HTTP_400_BAD_REQUEST,
             )
         try:
-            teacher = Teacher.objects.get(id=teacher_id)
+            teacher = SubjectTeacher.objects.get(id=subject_teacher_id)
         except (ValidationError, Teacher.DoesNotExist):
-            return Response("Wrong Teacher id in the request", HTTP_400_BAD_REQUEST)
+            return Response("Wrong Subject Teacher id in the request", HTTP_400_BAD_REQUEST)
 
         insights = get_period_adjustment_insights(period, teacher, date)
 

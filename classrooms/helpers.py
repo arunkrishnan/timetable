@@ -53,7 +53,7 @@ def available_teachers_for_the_period(
 
 
 def get_period_adjustment_insights(
-    period: Period, teacher: Teacher, date: datetime
+    period: Period, subject_teacher: SubjectTeacher, date: datetime
 ) -> Dict:
     insights = {}
     classroom = period.classroom
@@ -61,36 +61,36 @@ def get_period_adjustment_insights(
     period_number = period.period_number
     admission_year = period.admission_year
 
-    subject_teachers = SubjectTeacher.objects.filter(teacher=teacher)
+    teacher = subject_teacher.teacher
     insights["total_periods_allotted"] = Period.objects.filter(
         weekday=weekday,
         admission_year=admission_year,
-        subject_teacher__in=subject_teachers,
+        subject_teacher__teacher=subject_teacher.teacher,
     ).count()
 
     insights["periods_in_the_same_class"] = Period.objects.filter(
         weekday=weekday,
         classroom=classroom,
         admission_year=admission_year,
-        subject_teacher__in=subject_teachers,
+        subject_teacher__teacher=teacher,
     ).count()
 
     insights["had_class_in_previous_period"] = Period.objects.filter(
         weekday=weekday,
         period_number=period_number - 1,
         admission_year=admission_year,
-        subject_teacher__in=subject_teachers,
+        subject_teacher__teacher=teacher,
     ).exists()
 
     insights["have_class_in_next_period"] = Period.objects.filter(
         weekday=weekday,
         period_number=period_number - 1,
         admission_year=admission_year,
-        subject_teacher__in=subject_teachers,
+        subject_teacher__teacher=teacher,
     ).exists()
 
     insights["extra_periods_on_the_same_day"] = PeriodAdjustment.objects.filter(
-        adjusted_date=date, adjusted_by=teacher
+        adjusted_date=date, adjusted_by=subject_teacher
     )
 
     return insights

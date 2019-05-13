@@ -5,20 +5,19 @@ if the designated teacher is not available.
 
 
 ### Pre-requirements
-   * [Python 3.6+](https://www.python.org/downloads/)
+   * [Python 3.7+](https://www.python.org/downloads/)
+   * [pipenv](https://docs.pipenv.org/en/latest/)
 
 ### Setting up
 * clone the repo
-* Setup virtual environment
-    * virtualenv venv -p python3
-    * source venv/bin/activate
-* pip install -r requirements.txt 
+* cd timetable
+* pipenv install
 
 ### Execute the program
-    python manage.py runserver
+    pipenv run ./manage.py runserver
  
 ### Testing
-    python manage.py test
+    pipenv run python manage.py test
 
 
 ### APIs

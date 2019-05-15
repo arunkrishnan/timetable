@@ -4,23 +4,16 @@ from classrooms.models import (
     Period,
     SubjectTeacher,
     ClassRoom,
-    Teacher,
     Subject,
     PeriodAdjustment,
 )
+from schools.serializers import TeacherSerializer
 
 
 class ClassRoomSerializer(serializers.ModelSerializer):
     class Meta:
         model = ClassRoom
         fields = ("id", "standard", "division")
-
-
-class TeacherSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = Teacher
-        read_only_fields = ("full_name",)
-        fields = ("id", "full_name", "code")
 
 
 class SubjectSerializer(serializers.ModelSerializer):

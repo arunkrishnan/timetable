@@ -2,8 +2,8 @@ from random import randint, choice
 
 import factory
 
-from classrooms.models import ClassRoom, Teacher, Subject, SubjectTeacher, Period
-from schools.factories import SchoolFactory
+from classrooms.models import ClassRoom, Subject, SubjectTeacher, Period
+from schools.factories import SchoolFactory, TeacherFactory
 
 
 class ClassRoomFactory(factory.DjangoModelFactory):
@@ -13,18 +13,6 @@ class ClassRoomFactory(factory.DjangoModelFactory):
     standard = factory.LazyAttribute(lambda n: str(randint(1, 10)))
     division = factory.LazyAttribute(lambda n: choice(["A", "B", "C", "D", "E"]))
     school = factory.SubFactory(SchoolFactory)
-
-
-class TeacherFactory(factory.DjangoModelFactory):
-    class Meta:
-        model = Teacher
-
-    code = factory.Faker("user_name")
-    school = factory.SubFactory(SchoolFactory)
-    first_name = factory.Faker("first_name")
-    last_name = factory.Faker("last_name")
-    email = factory.Faker("email")
-    phone_number = factory.LazyAttribute(lambda n: str(randint(11111, 55555)))
 
 
 class SubjectFactory(factory.DjangoModelFactory):

@@ -21,10 +21,10 @@ from classrooms.views import (
     PeriodViewSet,
     SubjectTeacherViewSet,
     ClassRoomViewSet,
-    TeacherViewSet,
     SubjectViewSet,
     PeriodAdjustmentViewSet,
 )
+from schools.views import TeacherViewSet
 from users.views import UserViewSet
 
 router = routers.DefaultRouter()

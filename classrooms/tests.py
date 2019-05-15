@@ -2,14 +2,13 @@ from django.core.exceptions import ValidationError
 
 from classrooms.factories import (
     PeriodFactory,
-    TeacherFactory,
     SubjectTeacherFactory,
     ClassRoomFactory,
 )
 
 import pytest
 
-from schools.factories import SchoolFactory
+from schools.factories import SchoolFactory, TeacherFactory
 
 
 @pytest.mark.django_db

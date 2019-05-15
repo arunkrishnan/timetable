@@ -5,7 +5,7 @@ from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from djchoices import DjangoChoices, ChoiceItem
 
-from schools.models import School
+from schools.models import School, Teacher
 from utils.futils import get_current_admission_year
 from utils.model_templates import LogicalDeleteModel, BaseModel
 
@@ -56,24 +56,10 @@ class ClassRoom(LogicalDeleteModel):
         return f"{self.standard} {self.division}"
 
     class Meta:
+        constraints = [
+            models.UniqueConstraint(fields=['school', 'standard', "division"], name="unique_class_room")
+        ]
         unique_together = ("standard", "division", "school")
-
-
-class Teacher(LogicalDeleteModel):
-    id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    code = models.CharField(max_length=100, null=True, blank=True)
-    school = models.ForeignKey(School, on_delete=models.CASCADE)
-    first_name = models.CharField(max_length=100)
-    last_name = models.CharField(max_length=150, null=True, blank=True)
-    email = models.EmailField(null=True, blank=True)
-    phone_number = models.CharField(max_length=20, null=True, blank=True)
-
-    @property
-    def full_name(self):
-        return f"{self.first_name} {self.last_name}"
-
-    def __str__(self):
-        return self.full_name
 
 
 class Subject(BaseModel):

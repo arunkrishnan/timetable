@@ -25,12 +25,16 @@ from classrooms.serializers import (
     SubjectSerializer,
     PeriodAdjustmentSerializer,
 )
+from schools.models import Teacher
 from utils.futils import get_current_admission_year
 
 
 class ClassRoomViewSet(ModelViewSet):
     queryset = ClassRoom.objects.all()
     serializer_class = ClassRoomSerializer
+
+    def get_queryset(self):
+        return self.queryset.filter(school=self.request.user.school)
 
 
 class SubjectViewSet(ModelViewSet):
@@ -41,6 +45,9 @@ class SubjectViewSet(ModelViewSet):
 class SubjectTeacherViewSet(ModelViewSet):
     queryset = SubjectTeacher.objects.all()
     serializer_class = SubjectTeacherSerializer
+
+    def get_queryset(self):
+        return self.queryset.filter(teacher__school=self.request.user.school)
 
 
 class PeriodFilter(filters.FilterSet):
@@ -75,6 +82,9 @@ class PeriodViewSet(ModelViewSet):
     ).order_by("-id")
     serializer_class = PeriodSerializer
     filterset_class = PeriodFilter
+
+    def get_queryset(self):
+        return self.queryset.filter(classroom__school=self.request.user.school)
 
     @action(
         detail=True,
@@ -139,3 +149,6 @@ class PeriodAdjustmentViewSet(ModelViewSet):
     queryset = PeriodAdjustment.objects.all().order_by("-id")
     serializer_class = PeriodAdjustmentSerializer
     filterset_class = PeriodAdjustmentFilter
+
+    def get_queryset(self):
+        return self.queryset.filter(period__classroom__school=self.request.user.school)

@@ -5,7 +5,7 @@ if the designated teacher is not available.
 
 
 ### Pre-requirements
-   * [Python 3.7+](https://www.python.org/downloads/)
+   * [Python 3.6+](https://www.python.org/downloads/)
    * [pipenv](https://docs.pipenv.org/en/latest/)
 
 ### Setting up
@@ -24,12 +24,12 @@ if the designated teacher is not available.
 
 ##### Teachers
     /api/v0/teachers
-* To list all teachers of a school with code school_code
+* To list all teachers of a school
 
-    ```/?school__code=school_code```
+    User must be logged in and must be map to a school to view the list
 * Filter teachers while searching by name
 
-    ```/?school__code=school_code&first_name__contains=asd```
+    ```/?first_name__contains=asd```
 
 
 ##### Periods

@@ -11,11 +11,9 @@ class TeacherFilter(filters.FilterSet):
         fields = {
             "id": ["exact"],
             "code": ["exact"],
-            "school": ["exact"],
             "first_name": ["exact", "contains"],
             "email": ["exact"],
             "phone_number": ["exact"],
-            "school__code": ["exact"],
         }
 
 
@@ -24,3 +22,5 @@ class TeacherViewSet(ModelViewSet):
     serializer_class = TeacherSerializer
     filterset_class = TeacherFilter
 
+    def get_queryset(self):
+        return self.queryset.filter(school=self.request.user.school)

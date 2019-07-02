@@ -18,9 +18,9 @@ class TeacherFilter(filters.FilterSet):
 
 
 class TeacherViewSet(ModelViewSet):
-    queryset = Teacher.objects.all()  # Filter by school, based on logged in user
+    queryset = Teacher.objects.all()
     serializer_class = TeacherSerializer
     filterset_class = TeacherFilter
 
     def get_queryset(self):
-        return self.queryset.filter(school=self.request.user.school)
+        return self.queryset.filter(school=self.request.school)

@@ -22,11 +22,12 @@ if the designated teacher is not available.
 
 ### APIs
 
+All APIs are paginated
+
 ##### Teachers
     /api/v0/teachers
 * To list all teachers of a school
 
-    User must be logged in and must be map to a school to view the list
 * Filter teachers while searching by name
 
     ```/?first_name__contains=asd```
@@ -83,3 +84,6 @@ if the designated teacher is not available.
         }
 
     ```
+
+
+##### APIs are limited to single school for now, and eliminated need for login

@@ -1,0 +1,403 @@
+[
+{
+    "model": "schools.school",
+    "pk": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+    "fields": {
+        "created_at": "2019-07-03T07:20:14.580Z",
+        "updated_at": "2019-07-03T07:20:14.580Z",
+        "date_removed": null,
+        "name": "CMS HSS THrissur",
+        "code": "cms"
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "0f8fd2b8-6fc7-49a0-8492-801cad971425",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.448Z",
+        "updated_at": "2019-07-03T07:35:26.448Z",
+        "date_removed": null,
+        "code": "CA",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "CA",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "267f18ee-e579-4281-9c8c-8c46a40faf6b",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.116Z",
+        "updated_at": "2019-07-03T07:35:26.116Z",
+        "date_removed": null,
+        "code": "GVS",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "GVS",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "3db4cf0a-c057-4923-a629-d09766d02ca9",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.361Z",
+        "updated_at": "2019-07-03T07:35:26.361Z",
+        "date_removed": null,
+        "code": "KM",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "KM",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "40dafbc5-c452-4d93-a59a-928eba6dca52",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.551Z",
+        "updated_at": "2019-07-03T07:35:26.551Z",
+        "date_removed": null,
+        "code": "JF",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "JF",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "4b580421-57ae-4275-bfe1-fd146ce342af",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.035Z",
+        "updated_at": "2019-07-03T07:35:27.035Z",
+        "date_removed": null,
+        "code": "BE",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "BE",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "53eed64c-28f0-44fb-835c-1896e616b9c1",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.715Z",
+        "updated_at": "2019-07-03T07:35:26.715Z",
+        "date_removed": null,
+        "code": "SCS",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "SCS",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "5ead8992-0d5a-40db-8dee-e8d7d0c6653b",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.985Z",
+        "updated_at": "2019-07-03T07:35:26.985Z",
+        "date_removed": null,
+        "code": "PVJ",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "PVJ",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "60af6cc2-7ac8-4f37-8af8-9c1678bce88c",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.109Z",
+        "updated_at": "2019-07-03T07:35:27.109Z",
+        "date_removed": null,
+        "code": "DA",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "DA",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "7057fff7-454a-4745-b0f9-68038ccaebc2",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.846Z",
+        "updated_at": "2019-07-03T07:35:26.846Z",
+        "date_removed": null,
+        "code": "AS",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "AS",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "758c96a8-25e1-45a2-b11a-eba0617de19a",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.344Z",
+        "updated_at": "2019-07-03T07:35:27.344Z",
+        "date_removed": null,
+        "code": "BJN",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "BJN",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "80f082fa-b9cb-4ba6-9c4f-38580e2e237c",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.185Z",
+        "updated_at": "2019-07-03T07:35:26.185Z",
+        "date_removed": null,
+        "code": "JKJ",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "JKJ",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "83be9041-74c4-4eaa-b94b-576830ff3cb8",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.328Z",
+        "updated_at": "2019-07-03T07:35:26.328Z",
+        "date_removed": null,
+        "code": "KH",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "KH",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "861249d7-8a3b-4e6d-a978-ed1402aaeeb3",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.410Z",
+        "updated_at": "2019-07-03T07:35:26.410Z",
+        "date_removed": null,
+        "code": "PJK",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "PJK",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "89e80fa5-a5cb-4179-87ea-f8a624eefaf5",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.068Z",
+        "updated_at": "2019-07-03T07:35:27.068Z",
+        "date_removed": null,
+        "code": "JGC",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "JGC",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "8c0fee20-ab3b-4726-8cda-f34aa3569026",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.946Z",
+        "updated_at": "2019-07-03T07:35:26.946Z",
+        "date_removed": null,
+        "code": "PA",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "PA",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "8e207451-55f2-42cf-ace7-20f92d4bc051",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.909Z",
+        "updated_at": "2019-07-03T07:35:26.909Z",
+        "date_removed": null,
+        "code": "MJM",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "MJM",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "9851599a-fe44-4bb3-a9ae-74e061520194",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.620Z",
+        "updated_at": "2019-07-03T07:35:26.620Z",
+        "date_removed": null,
+        "code": "JJV",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "JJV",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "9bfd90fc-a06e-44b3-b782-49f3a9edc5f6",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.749Z",
+        "updated_at": "2019-07-03T07:35:26.749Z",
+        "date_removed": null,
+        "code": "DRAWING",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "DRAWING",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "a4e00e7c-0e49-49b6-a0ff-9d308a74f8e4",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.483Z",
+        "updated_at": "2019-07-03T07:35:26.483Z",
+        "date_removed": null,
+        "code": "ST",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "ST",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "a69159b4-148f-4008-b84a-6beef7d16232",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.263Z",
+        "updated_at": "2019-07-03T07:35:26.263Z",
+        "date_removed": null,
+        "code": "RCK",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "RCK",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "b48dc1cf-9dc2-4542-8ab8-5144c750e84e",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.179Z",
+        "updated_at": "2019-07-03T07:35:27.179Z",
+        "date_removed": null,
+        "code": "AJJ",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "AJJ",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "c7cb7b70-95d3-4af8-9c74-ff5f4da0e629",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.316Z",
+        "updated_at": "2019-07-03T07:35:27.316Z",
+        "date_removed": null,
+        "code": "JP",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "JP",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "c982fa94-96ec-41e6-8b09-0ab9e06267c0",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.683Z",
+        "updated_at": "2019-07-03T07:35:26.683Z",
+        "date_removed": null,
+        "code": "SD",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "SD",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "d2088d66-f5eb-4e5c-b7a6-ee2105d3e175",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.379Z",
+        "updated_at": "2019-07-03T07:35:27.379Z",
+        "date_removed": null,
+        "code": "KVS",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "KVS",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "e9d20aac-a040-495e-818f-1be546aed24e",
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.785Z",
+        "updated_at": "2019-07-03T07:35:26.785Z",
+        "date_removed": null,
+        "code": "BJ",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "BJ",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+},
+{
+    "model": "schools.teacher",
+    "pk": "f27f14bf-bb43-41e5-90f5-24b02f293a07",
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.245Z",
+        "updated_at": "2019-07-03T07:35:27.245Z",
+        "date_removed": null,
+        "code": "SPV",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a",
+        "first_name": "SPV",
+        "last_name": null,
+        "email": null,
+        "phone_number": null
+    }
+}
+]

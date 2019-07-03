@@ -1,0 +1,4552 @@
+[
+{
+    "model": "classrooms.classroom",
+    "pk": 1,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.685Z",
+        "updated_at": "2019-07-03T07:20:25.685Z",
+        "date_removed": null,
+        "standard": "8",
+        "division": "A",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 2,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.690Z",
+        "updated_at": "2019-07-03T07:20:25.690Z",
+        "date_removed": null,
+        "standard": "8",
+        "division": "B",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 3,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.693Z",
+        "updated_at": "2019-07-03T07:20:25.693Z",
+        "date_removed": null,
+        "standard": "8",
+        "division": "C",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 4,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.695Z",
+        "updated_at": "2019-07-03T07:20:25.695Z",
+        "date_removed": null,
+        "standard": "8",
+        "division": "D",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 5,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.697Z",
+        "updated_at": "2019-07-03T07:20:25.697Z",
+        "date_removed": null,
+        "standard": "8",
+        "division": "E",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 6,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.699Z",
+        "updated_at": "2019-07-03T07:20:25.699Z",
+        "date_removed": null,
+        "standard": "9",
+        "division": "A",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 7,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.701Z",
+        "updated_at": "2019-07-03T07:20:25.701Z",
+        "date_removed": null,
+        "standard": "9",
+        "division": "B",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 8,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.703Z",
+        "updated_at": "2019-07-03T07:20:25.703Z",
+        "date_removed": null,
+        "standard": "9",
+        "division": "C",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 9,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.705Z",
+        "updated_at": "2019-07-03T07:20:25.705Z",
+        "date_removed": null,
+        "standard": "9",
+        "division": "D",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 10,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.708Z",
+        "updated_at": "2019-07-03T07:20:25.708Z",
+        "date_removed": null,
+        "standard": "9",
+        "division": "E",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 11,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.710Z",
+        "updated_at": "2019-07-03T07:20:25.710Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "A",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 12,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.712Z",
+        "updated_at": "2019-07-03T07:20:25.712Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "B",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 13,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.714Z",
+        "updated_at": "2019-07-03T07:20:25.714Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "C",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 14,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.716Z",
+        "updated_at": "2019-07-03T07:20:25.716Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "D",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 15,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.718Z",
+        "updated_at": "2019-07-03T07:20:25.718Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "E",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 16,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.720Z",
+        "updated_at": "2019-07-03T07:20:25.720Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "F",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.classroom",
+    "pk": 17,
+    "fields": {
+        "created_at": "2019-07-03T07:20:25.722Z",
+        "updated_at": "2019-07-03T07:20:25.722Z",
+        "date_removed": null,
+        "standard": "10",
+        "division": "G",
+        "school": "ab3d9754-edaf-402b-99b1-17a1e3c2882a"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 1,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.106Z",
+        "updated_at": "2019-07-03T07:35:26.106Z",
+        "name": "MAL1",
+        "code": "MAL1"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 2,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.130Z",
+        "updated_at": "2019-07-03T07:35:26.130Z",
+        "name": "MAL2",
+        "code": "MAL2"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 3,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.150Z",
+        "updated_at": "2019-07-03T07:35:26.150Z",
+        "name": "IT",
+        "code": "IT"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 4,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.259Z",
+        "updated_at": "2019-07-03T07:35:26.259Z",
+        "name": "SANSKRIT",
+        "code": "SANS"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 5,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.323Z",
+        "updated_at": "2019-07-03T07:35:26.323Z",
+        "name": "ENGLISH",
+        "code": "ENGL"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 6,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.357Z",
+        "updated_at": "2019-07-03T07:35:26.357Z",
+        "name": "HINDI",
+        "code": "HIND"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 7,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.406Z",
+        "updated_at": "2019-07-03T07:35:26.406Z",
+        "name": "SOCIAL",
+        "code": "SOCI"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 8,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.477Z",
+        "updated_at": "2019-07-03T07:35:26.477Z",
+        "name": "PHY",
+        "code": "PHY"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 9,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.547Z",
+        "updated_at": "2019-07-03T07:35:26.547Z",
+        "name": "CHE",
+        "code": "CHE"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 10,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.616Z",
+        "updated_at": "2019-07-03T07:35:26.616Z",
+        "name": "BIO",
+        "code": "BIO"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 11,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.680Z",
+        "updated_at": "2019-07-03T07:35:26.680Z",
+        "name": "MATHS",
+        "code": "MATH"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 12,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.745Z",
+        "updated_at": "2019-07-03T07:35:26.745Z",
+        "name": "ART",
+        "code": "ART"
+    }
+},
+{
+    "model": "classrooms.subject",
+    "pk": 13,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.375Z",
+        "updated_at": "2019-07-03T07:35:27.375Z",
+        "name": "PET",
+        "code": "PET"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 1,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.124Z",
+        "updated_at": "2019-07-03T07:35:26.124Z",
+        "subject": 1,
+        "teacher": "267f18ee-e579-4281-9c8c-8c46a40faf6b"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 2,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.135Z",
+        "updated_at": "2019-07-03T07:35:26.135Z",
+        "subject": 2,
+        "teacher": "267f18ee-e579-4281-9c8c-8c46a40faf6b"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 3,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.154Z",
+        "updated_at": "2019-07-03T07:35:26.154Z",
+        "subject": 3,
+        "teacher": "267f18ee-e579-4281-9c8c-8c46a40faf6b"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 4,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.188Z",
+        "updated_at": "2019-07-03T07:35:26.188Z",
+        "subject": 2,
+        "teacher": "80f082fa-b9cb-4ba6-9c4f-38580e2e237c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 5,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.196Z",
+        "updated_at": "2019-07-03T07:35:26.196Z",
+        "subject": 1,
+        "teacher": "80f082fa-b9cb-4ba6-9c4f-38580e2e237c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 6,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.252Z",
+        "updated_at": "2019-07-03T07:35:26.252Z",
+        "subject": 3,
+        "teacher": "80f082fa-b9cb-4ba6-9c4f-38580e2e237c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 7,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.266Z",
+        "updated_at": "2019-07-03T07:35:26.266Z",
+        "subject": 4,
+        "teacher": "a69159b4-148f-4008-b84a-6beef7d16232"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 8,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.276Z",
+        "updated_at": "2019-07-03T07:35:26.276Z",
+        "subject": 3,
+        "teacher": "a69159b4-148f-4008-b84a-6beef7d16232"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 9,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.331Z",
+        "updated_at": "2019-07-03T07:35:26.331Z",
+        "subject": 5,
+        "teacher": "83be9041-74c4-4eaa-b94b-576830ff3cb8"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 10,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.364Z",
+        "updated_at": "2019-07-03T07:35:26.364Z",
+        "subject": 6,
+        "teacher": "3db4cf0a-c057-4923-a629-d09766d02ca9"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 11,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.415Z",
+        "updated_at": "2019-07-03T07:35:26.415Z",
+        "subject": 7,
+        "teacher": "861249d7-8a3b-4e6d-a978-ed1402aaeeb3"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 12,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.435Z",
+        "updated_at": "2019-07-03T07:35:26.435Z",
+        "subject": 3,
+        "teacher": "861249d7-8a3b-4e6d-a978-ed1402aaeeb3"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 13,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.451Z",
+        "updated_at": "2019-07-03T07:35:26.451Z",
+        "subject": 7,
+        "teacher": "0f8fd2b8-6fc7-49a0-8492-801cad971425"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 14,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.488Z",
+        "updated_at": "2019-07-03T07:35:26.488Z",
+        "subject": 8,
+        "teacher": "a4e00e7c-0e49-49b6-a0ff-9d308a74f8e4"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 15,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.498Z",
+        "updated_at": "2019-07-03T07:35:26.499Z",
+        "subject": 3,
+        "teacher": "a4e00e7c-0e49-49b6-a0ff-9d308a74f8e4"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 16,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.554Z",
+        "updated_at": "2019-07-03T07:35:26.554Z",
+        "subject": 9,
+        "teacher": "40dafbc5-c452-4d93-a59a-928eba6dca52"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 17,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.577Z",
+        "updated_at": "2019-07-03T07:35:26.577Z",
+        "subject": 3,
+        "teacher": "40dafbc5-c452-4d93-a59a-928eba6dca52"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 18,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.607Z",
+        "updated_at": "2019-07-03T07:35:26.607Z",
+        "subject": 8,
+        "teacher": "40dafbc5-c452-4d93-a59a-928eba6dca52"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 19,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.623Z",
+        "updated_at": "2019-07-03T07:35:26.623Z",
+        "subject": 10,
+        "teacher": "9851599a-fe44-4bb3-a9ae-74e061520194"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 20,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.659Z",
+        "updated_at": "2019-07-03T07:35:26.659Z",
+        "subject": 9,
+        "teacher": "9851599a-fe44-4bb3-a9ae-74e061520194"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 21,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.686Z",
+        "updated_at": "2019-07-03T07:35:26.686Z",
+        "subject": 11,
+        "teacher": "c982fa94-96ec-41e6-8b09-0ab9e06267c0"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 22,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.720Z",
+        "updated_at": "2019-07-03T07:35:26.720Z",
+        "subject": 11,
+        "teacher": "53eed64c-28f0-44fb-835c-1896e616b9c1"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 23,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.752Z",
+        "updated_at": "2019-07-03T07:35:26.752Z",
+        "subject": 12,
+        "teacher": "9bfd90fc-a06e-44b3-b782-49f3a9edc5f6"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 24,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.789Z",
+        "updated_at": "2019-07-03T07:35:26.789Z",
+        "subject": 1,
+        "teacher": "e9d20aac-a040-495e-818f-1be546aed24e"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 25,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.797Z",
+        "updated_at": "2019-07-03T07:35:26.797Z",
+        "subject": 2,
+        "teacher": "e9d20aac-a040-495e-818f-1be546aed24e"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 26,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.840Z",
+        "updated_at": "2019-07-03T07:35:26.840Z",
+        "subject": 6,
+        "teacher": "e9d20aac-a040-495e-818f-1be546aed24e"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 27,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.849Z",
+        "updated_at": "2019-07-03T07:35:26.849Z",
+        "subject": 1,
+        "teacher": "7057fff7-454a-4745-b0f9-68038ccaebc2"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 28,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.857Z",
+        "updated_at": "2019-07-03T07:35:26.857Z",
+        "subject": 2,
+        "teacher": "7057fff7-454a-4745-b0f9-68038ccaebc2"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 29,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.882Z",
+        "updated_at": "2019-07-03T07:35:26.882Z",
+        "subject": 3,
+        "teacher": "7057fff7-454a-4745-b0f9-68038ccaebc2"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 30,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.912Z",
+        "updated_at": "2019-07-03T07:35:26.912Z",
+        "subject": 5,
+        "teacher": "8e207451-55f2-42cf-ace7-20f92d4bc051"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 31,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.949Z",
+        "updated_at": "2019-07-03T07:35:26.949Z",
+        "subject": 5,
+        "teacher": "8c0fee20-ab3b-4726-8cda-f34aa3569026"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 32,
+    "fields": {
+        "created_at": "2019-07-03T07:35:26.987Z",
+        "updated_at": "2019-07-03T07:35:26.988Z",
+        "subject": 6,
+        "teacher": "5ead8992-0d5a-40db-8dee-e8d7d0c6653b"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 33,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.038Z",
+        "updated_at": "2019-07-03T07:35:27.038Z",
+        "subject": 7,
+        "teacher": "4b580421-57ae-4275-bfe1-fd146ce342af"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 34,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.073Z",
+        "updated_at": "2019-07-03T07:35:27.073Z",
+        "subject": 7,
+        "teacher": "89e80fa5-a5cb-4179-87ea-f8a624eefaf5"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 35,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.096Z",
+        "updated_at": "2019-07-03T07:35:27.096Z",
+        "subject": 5,
+        "teacher": "89e80fa5-a5cb-4179-87ea-f8a624eefaf5"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 36,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.113Z",
+        "updated_at": "2019-07-03T07:35:27.113Z",
+        "subject": 8,
+        "teacher": "60af6cc2-7ac8-4f37-8af8-9c1678bce88c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 37,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.127Z",
+        "updated_at": "2019-07-03T07:35:27.127Z",
+        "subject": 3,
+        "teacher": "60af6cc2-7ac8-4f37-8af8-9c1678bce88c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 38,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.161Z",
+        "updated_at": "2019-07-03T07:35:27.161Z",
+        "subject": 5,
+        "teacher": "60af6cc2-7ac8-4f37-8af8-9c1678bce88c"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 39,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.182Z",
+        "updated_at": "2019-07-03T07:35:27.182Z",
+        "subject": 9,
+        "teacher": "b48dc1cf-9dc2-4542-8ab8-5144c750e84e"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 40,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.189Z",
+        "updated_at": "2019-07-03T07:35:27.189Z",
+        "subject": 3,
+        "teacher": "b48dc1cf-9dc2-4542-8ab8-5144c750e84e"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 41,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.248Z",
+        "updated_at": "2019-07-03T07:35:27.248Z",
+        "subject": 10,
+        "teacher": "f27f14bf-bb43-41e5-90f5-24b02f293a07"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 42,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.309Z",
+        "updated_at": "2019-07-03T07:35:27.309Z",
+        "subject": 9,
+        "teacher": "f27f14bf-bb43-41e5-90f5-24b02f293a07"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 43,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.320Z",
+        "updated_at": "2019-07-03T07:35:27.320Z",
+        "subject": 11,
+        "teacher": "c7cb7b70-95d3-4af8-9c74-ff5f4da0e629"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 44,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.347Z",
+        "updated_at": "2019-07-03T07:35:27.348Z",
+        "subject": 11,
+        "teacher": "758c96a8-25e1-45a2-b11a-eba0617de19a"
+    }
+},
+{
+    "model": "classrooms.subjectteacher",
+    "pk": 45,
+    "fields": {
+        "created_at": "2019-07-03T07:35:27.382Z",
+        "updated_at": "2019-07-03T07:35:27.382Z",
+        "subject": 13,
+        "teacher": "d2088d66-f5eb-4e5c-b7a6-ee2105d3e175"
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 1,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.888Z",
+        "updated_at": "2019-07-03T08:01:06.888Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 2,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.902Z",
+        "updated_at": "2019-07-03T08:01:06.902Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 3,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.913Z",
+        "updated_at": "2019-07-03T08:01:06.913Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 4,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.931Z",
+        "updated_at": "2019-07-03T08:01:06.931Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 5,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.942Z",
+        "updated_at": "2019-07-03T08:01:06.942Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 6,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.953Z",
+        "updated_at": "2019-07-03T08:01:06.953Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 7,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.965Z",
+        "updated_at": "2019-07-03T08:01:06.965Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 8,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.979Z",
+        "updated_at": "2019-07-03T08:01:06.979Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 9,
+    "fields": {
+        "created_at": "2019-07-03T08:01:06.990Z",
+        "updated_at": "2019-07-03T08:01:06.990Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 10,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.001Z",
+        "updated_at": "2019-07-03T08:01:07.001Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 11,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.013Z",
+        "updated_at": "2019-07-03T08:01:07.013Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 12,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.023Z",
+        "updated_at": "2019-07-03T08:01:07.023Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 13,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.035Z",
+        "updated_at": "2019-07-03T08:01:07.035Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 15,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 14,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.045Z",
+        "updated_at": "2019-07-03T08:01:07.045Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 15,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.056Z",
+        "updated_at": "2019-07-03T08:01:07.056Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 16,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.067Z",
+        "updated_at": "2019-07-03T08:01:07.067Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 17,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.080Z",
+        "updated_at": "2019-07-03T08:01:07.080Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 18,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.092Z",
+        "updated_at": "2019-07-03T08:01:07.092Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 19,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.108Z",
+        "updated_at": "2019-07-03T08:01:07.108Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 20,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.122Z",
+        "updated_at": "2019-07-03T08:01:07.122Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 21,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.132Z",
+        "updated_at": "2019-07-03T08:01:07.133Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 22,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.144Z",
+        "updated_at": "2019-07-03T08:01:07.144Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 23,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.161Z",
+        "updated_at": "2019-07-03T08:01:07.161Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 24,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.172Z",
+        "updated_at": "2019-07-03T08:01:07.172Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 15,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 25,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.187Z",
+        "updated_at": "2019-07-03T08:01:07.187Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 26,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.199Z",
+        "updated_at": "2019-07-03T08:01:07.199Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 27,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.210Z",
+        "updated_at": "2019-07-03T08:01:07.210Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 28,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.229Z",
+        "updated_at": "2019-07-03T08:01:07.230Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 29,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.248Z",
+        "updated_at": "2019-07-03T08:01:07.248Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 30,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.262Z",
+        "updated_at": "2019-07-03T08:01:07.262Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 31,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.273Z",
+        "updated_at": "2019-07-03T08:01:07.273Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 32,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.293Z",
+        "updated_at": "2019-07-03T08:01:07.293Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 22,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 33,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.308Z",
+        "updated_at": "2019-07-03T08:01:07.308Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 34,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.321Z",
+        "updated_at": "2019-07-03T08:01:07.321Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 35,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.337Z",
+        "updated_at": "2019-07-03T08:01:07.337Z",
+        "date_removed": null,
+        "classroom": 11,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 36,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.353Z",
+        "updated_at": "2019-07-03T08:01:07.353Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 37,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.366Z",
+        "updated_at": "2019-07-03T08:01:07.366Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 38,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.378Z",
+        "updated_at": "2019-07-03T08:01:07.378Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 39,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.401Z",
+        "updated_at": "2019-07-03T08:01:07.401Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 11,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 40,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.412Z",
+        "updated_at": "2019-07-03T08:01:07.412Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 41,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.423Z",
+        "updated_at": "2019-07-03T08:01:07.423Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 42,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.434Z",
+        "updated_at": "2019-07-03T08:01:07.435Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 43,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.445Z",
+        "updated_at": "2019-07-03T08:01:07.445Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 40,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 44,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.456Z",
+        "updated_at": "2019-07-03T08:01:07.456Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 11,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 45,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.467Z",
+        "updated_at": "2019-07-03T08:01:07.467Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 46,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.478Z",
+        "updated_at": "2019-07-03T08:01:07.478Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 28,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 47,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.489Z",
+        "updated_at": "2019-07-03T08:01:07.489Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 48,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.505Z",
+        "updated_at": "2019-07-03T08:01:07.505Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 49,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.523Z",
+        "updated_at": "2019-07-03T08:01:07.523Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 50,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.536Z",
+        "updated_at": "2019-07-03T08:01:07.536Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 51,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.549Z",
+        "updated_at": "2019-07-03T08:01:07.549Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 52,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.560Z",
+        "updated_at": "2019-07-03T08:01:07.560Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 53,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.571Z",
+        "updated_at": "2019-07-03T08:01:07.571Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 54,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.585Z",
+        "updated_at": "2019-07-03T08:01:07.585Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 11,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 55,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.596Z",
+        "updated_at": "2019-07-03T08:01:07.596Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 45,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 56,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.606Z",
+        "updated_at": "2019-07-03T08:01:07.606Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 57,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.617Z",
+        "updated_at": "2019-07-03T08:01:07.617Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 58,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.628Z",
+        "updated_at": "2019-07-03T08:01:07.628Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 40,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 59,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.639Z",
+        "updated_at": "2019-07-03T08:01:07.639Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 60,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.651Z",
+        "updated_at": "2019-07-03T08:01:07.651Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 61,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.662Z",
+        "updated_at": "2019-07-03T08:01:07.662Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 11,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 62,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.673Z",
+        "updated_at": "2019-07-03T08:01:07.673Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 28,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 63,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.687Z",
+        "updated_at": "2019-07-03T08:01:07.687Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 64,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.697Z",
+        "updated_at": "2019-07-03T08:01:07.697Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 65,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.708Z",
+        "updated_at": "2019-07-03T08:01:07.708Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 66,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.720Z",
+        "updated_at": "2019-07-03T08:01:07.720Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 11,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 67,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.735Z",
+        "updated_at": "2019-07-03T08:01:07.735Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 31,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 68,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.748Z",
+        "updated_at": "2019-07-03T08:01:07.748Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 27,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 69,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.759Z",
+        "updated_at": "2019-07-03T08:01:07.759Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 70,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.771Z",
+        "updated_at": "2019-07-03T08:01:07.771Z",
+        "date_removed": null,
+        "classroom": 8,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 28,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 71,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.784Z",
+        "updated_at": "2019-07-03T08:01:07.784Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 72,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.795Z",
+        "updated_at": "2019-07-03T08:01:07.795Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 73,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.811Z",
+        "updated_at": "2019-07-03T08:01:07.811Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 74,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.822Z",
+        "updated_at": "2019-07-03T08:01:07.822Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 75,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.833Z",
+        "updated_at": "2019-07-03T08:01:07.833Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 76,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.851Z",
+        "updated_at": "2019-07-03T08:01:07.851Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 77,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.863Z",
+        "updated_at": "2019-07-03T08:01:07.863Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 78,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.875Z",
+        "updated_at": "2019-07-03T08:01:07.875Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 79,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.887Z",
+        "updated_at": "2019-07-03T08:01:07.887Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 80,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.899Z",
+        "updated_at": "2019-07-03T08:01:07.899Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 81,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.914Z",
+        "updated_at": "2019-07-03T08:01:07.914Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 82,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.927Z",
+        "updated_at": "2019-07-03T08:01:07.927Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 83,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.943Z",
+        "updated_at": "2019-07-03T08:01:07.943Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 84,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.956Z",
+        "updated_at": "2019-07-03T08:01:07.956Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 85,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.967Z",
+        "updated_at": "2019-07-03T08:01:07.967Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 86,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.980Z",
+        "updated_at": "2019-07-03T08:01:07.980Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 87,
+    "fields": {
+        "created_at": "2019-07-03T08:01:07.997Z",
+        "updated_at": "2019-07-03T08:01:07.997Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 88,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.008Z",
+        "updated_at": "2019-07-03T08:01:08.008Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 89,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.020Z",
+        "updated_at": "2019-07-03T08:01:08.020Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 90,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.037Z",
+        "updated_at": "2019-07-03T08:01:08.037Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 91,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.047Z",
+        "updated_at": "2019-07-03T08:01:08.048Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 40,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 92,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.059Z",
+        "updated_at": "2019-07-03T08:01:08.059Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 93,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.070Z",
+        "updated_at": "2019-07-03T08:01:08.070Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 94,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.081Z",
+        "updated_at": "2019-07-03T08:01:08.081Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 40,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 95,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.092Z",
+        "updated_at": "2019-07-03T08:01:08.092Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 96,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.103Z",
+        "updated_at": "2019-07-03T08:01:08.103Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 97,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.124Z",
+        "updated_at": "2019-07-03T08:01:08.124Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 98,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.139Z",
+        "updated_at": "2019-07-03T08:01:08.139Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 99,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.155Z",
+        "updated_at": "2019-07-03T08:01:08.155Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 100,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.167Z",
+        "updated_at": "2019-07-03T08:01:08.167Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 101,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.178Z",
+        "updated_at": "2019-07-03T08:01:08.178Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 102,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.190Z",
+        "updated_at": "2019-07-03T08:01:08.190Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 103,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.203Z",
+        "updated_at": "2019-07-03T08:01:08.203Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 104,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.216Z",
+        "updated_at": "2019-07-03T08:01:08.216Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 105,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.229Z",
+        "updated_at": "2019-07-03T08:01:08.229Z",
+        "date_removed": null,
+        "classroom": 12,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 106,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.244Z",
+        "updated_at": "2019-07-03T08:01:08.244Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 107,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.257Z",
+        "updated_at": "2019-07-03T08:01:08.257Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 108,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.272Z",
+        "updated_at": "2019-07-03T08:01:08.272Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 109,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.286Z",
+        "updated_at": "2019-07-03T08:01:08.286Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 110,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.300Z",
+        "updated_at": "2019-07-03T08:01:08.300Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 111,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.314Z",
+        "updated_at": "2019-07-03T08:01:08.314Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 112,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.334Z",
+        "updated_at": "2019-07-03T08:01:08.334Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 113,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.347Z",
+        "updated_at": "2019-07-03T08:01:08.347Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 114,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.366Z",
+        "updated_at": "2019-07-03T08:01:08.366Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 29,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 115,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.378Z",
+        "updated_at": "2019-07-03T08:01:08.378Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 116,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.391Z",
+        "updated_at": "2019-07-03T08:01:08.391Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 117,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.404Z",
+        "updated_at": "2019-07-03T08:01:08.404Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 118,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.416Z",
+        "updated_at": "2019-07-03T08:01:08.416Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 119,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.429Z",
+        "updated_at": "2019-07-03T08:01:08.429Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 120,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.441Z",
+        "updated_at": "2019-07-03T08:01:08.441Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 121,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.454Z",
+        "updated_at": "2019-07-03T08:01:08.454Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 45,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 122,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.468Z",
+        "updated_at": "2019-07-03T08:01:08.468Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 29,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 123,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.481Z",
+        "updated_at": "2019-07-03T08:01:08.481Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 124,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.494Z",
+        "updated_at": "2019-07-03T08:01:08.494Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 125,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.507Z",
+        "updated_at": "2019-07-03T08:01:08.507Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 126,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.519Z",
+        "updated_at": "2019-07-03T08:01:08.519Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 127,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.529Z",
+        "updated_at": "2019-07-03T08:01:08.529Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 128,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.546Z",
+        "updated_at": "2019-07-03T08:01:08.546Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 129,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.558Z",
+        "updated_at": "2019-07-03T08:01:08.559Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 130,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.571Z",
+        "updated_at": "2019-07-03T08:01:08.572Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 131,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.587Z",
+        "updated_at": "2019-07-03T08:01:08.588Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 29,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 132,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.598Z",
+        "updated_at": "2019-07-03T08:01:08.598Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 133,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.609Z",
+        "updated_at": "2019-07-03T08:01:08.609Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 134,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.620Z",
+        "updated_at": "2019-07-03T08:01:08.620Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 135,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.631Z",
+        "updated_at": "2019-07-03T08:01:08.631Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 136,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.642Z",
+        "updated_at": "2019-07-03T08:01:08.642Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 137,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.653Z",
+        "updated_at": "2019-07-03T08:01:08.653Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 138,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.666Z",
+        "updated_at": "2019-07-03T08:01:08.666Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 34,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 139,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.677Z",
+        "updated_at": "2019-07-03T08:01:08.677Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 140,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.688Z",
+        "updated_at": "2019-07-03T08:01:08.688Z",
+        "date_removed": null,
+        "classroom": 9,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 141,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.708Z",
+        "updated_at": "2019-07-03T08:01:08.709Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 142,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.721Z",
+        "updated_at": "2019-07-03T08:01:08.721Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 33,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 143,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.734Z",
+        "updated_at": "2019-07-03T08:01:08.734Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 144,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.748Z",
+        "updated_at": "2019-07-03T08:01:08.748Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 145,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.761Z",
+        "updated_at": "2019-07-03T08:01:08.762Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 146,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.778Z",
+        "updated_at": "2019-07-03T08:01:08.778Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 3,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 147,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.791Z",
+        "updated_at": "2019-07-03T08:01:08.791Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 148,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.805Z",
+        "updated_at": "2019-07-03T08:01:08.805Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 149,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.819Z",
+        "updated_at": "2019-07-03T08:01:08.819Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 150,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.832Z",
+        "updated_at": "2019-07-03T08:01:08.832Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 33,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 151,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.844Z",
+        "updated_at": "2019-07-03T08:01:08.844Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 152,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.856Z",
+        "updated_at": "2019-07-03T08:01:08.856Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 153,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.867Z",
+        "updated_at": "2019-07-03T08:01:08.868Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 154,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.880Z",
+        "updated_at": "2019-07-03T08:01:08.880Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 155,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.890Z",
+        "updated_at": "2019-07-03T08:01:08.890Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 156,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.902Z",
+        "updated_at": "2019-07-03T08:01:08.902Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 157,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.914Z",
+        "updated_at": "2019-07-03T08:01:08.914Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 158,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.924Z",
+        "updated_at": "2019-07-03T08:01:08.924Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 3,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 159,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.939Z",
+        "updated_at": "2019-07-03T08:01:08.939Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 160,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.952Z",
+        "updated_at": "2019-07-03T08:01:08.952Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 33,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 161,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.966Z",
+        "updated_at": "2019-07-03T08:01:08.966Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 162,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.977Z",
+        "updated_at": "2019-07-03T08:01:08.977Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 163,
+    "fields": {
+        "created_at": "2019-07-03T08:01:08.989Z",
+        "updated_at": "2019-07-03T08:01:08.989Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 164,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.001Z",
+        "updated_at": "2019-07-03T08:01:09.002Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 165,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.013Z",
+        "updated_at": "2019-07-03T08:01:09.013Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 166,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.024Z",
+        "updated_at": "2019-07-03T08:01:09.024Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 167,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.035Z",
+        "updated_at": "2019-07-03T08:01:09.035Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 168,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.048Z",
+        "updated_at": "2019-07-03T08:01:09.049Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 33,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 169,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.061Z",
+        "updated_at": "2019-07-03T08:01:09.061Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 1,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 170,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.072Z",
+        "updated_at": "2019-07-03T08:01:09.072Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 19,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 171,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.083Z",
+        "updated_at": "2019-07-03T08:01:09.083Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 172,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.094Z",
+        "updated_at": "2019-07-03T08:01:09.094Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 33,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 173,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.105Z",
+        "updated_at": "2019-07-03T08:01:09.106Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 174,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.117Z",
+        "updated_at": "2019-07-03T08:01:09.117Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 43,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 175,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.128Z",
+        "updated_at": "2019-07-03T08:01:09.128Z",
+        "date_removed": null,
+        "classroom": 13,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 176,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.141Z",
+        "updated_at": "2019-07-03T08:01:09.141Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 177,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.153Z",
+        "updated_at": "2019-07-03T08:01:09.153Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 178,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.166Z",
+        "updated_at": "2019-07-03T08:01:09.167Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 179,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.178Z",
+        "updated_at": "2019-07-03T08:01:09.178Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 180,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.189Z",
+        "updated_at": "2019-07-03T08:01:09.190Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 181,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.204Z",
+        "updated_at": "2019-07-03T08:01:09.204Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 45,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 182,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.219Z",
+        "updated_at": "2019-07-03T08:01:09.219Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 5,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 183,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.229Z",
+        "updated_at": "2019-07-03T08:01:09.229Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 184,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.239Z",
+        "updated_at": "2019-07-03T08:01:09.239Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 185,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.251Z",
+        "updated_at": "2019-07-03T08:01:09.251Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 186,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.261Z",
+        "updated_at": "2019-07-03T08:01:09.261Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 187,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.272Z",
+        "updated_at": "2019-07-03T08:01:09.272Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 5,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 188,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.283Z",
+        "updated_at": "2019-07-03T08:01:09.284Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 189,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.295Z",
+        "updated_at": "2019-07-03T08:01:09.295Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 23,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 190,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.307Z",
+        "updated_at": "2019-07-03T08:01:09.307Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 191,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.318Z",
+        "updated_at": "2019-07-03T08:01:09.318Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 192,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.330Z",
+        "updated_at": "2019-07-03T08:01:09.330Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 193,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.346Z",
+        "updated_at": "2019-07-03T08:01:09.346Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 194,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.361Z",
+        "updated_at": "2019-07-03T08:01:09.361Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 5,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 195,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.398Z",
+        "updated_at": "2019-07-03T08:01:09.398Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 196,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.412Z",
+        "updated_at": "2019-07-03T08:01:09.412Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 8,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 197,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.429Z",
+        "updated_at": "2019-07-03T08:01:09.429Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 198,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.442Z",
+        "updated_at": "2019-07-03T08:01:09.442Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 199,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.456Z",
+        "updated_at": "2019-07-03T08:01:09.457Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 200,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.470Z",
+        "updated_at": "2019-07-03T08:01:09.470Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 5,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 201,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.483Z",
+        "updated_at": "2019-07-03T08:01:09.483Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 16,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 202,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.512Z",
+        "updated_at": "2019-07-03T08:01:09.512Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 203,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.524Z",
+        "updated_at": "2019-07-03T08:01:09.524Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 204,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.536Z",
+        "updated_at": "2019-07-03T08:01:09.536Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 30,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 205,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.548Z",
+        "updated_at": "2019-07-03T08:01:09.548Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 206,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.560Z",
+        "updated_at": "2019-07-03T08:01:09.560Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 5,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 207,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.572Z",
+        "updated_at": "2019-07-03T08:01:09.572Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 208,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.585Z",
+        "updated_at": "2019-07-03T08:01:09.586Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 209,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.602Z",
+        "updated_at": "2019-07-03T08:01:09.602Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 8,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 210,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.614Z",
+        "updated_at": "2019-07-03T08:01:09.614Z",
+        "date_removed": null,
+        "classroom": 10,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 44,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 211,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.630Z",
+        "updated_at": "2019-07-03T08:01:09.630Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 212,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.642Z",
+        "updated_at": "2019-07-03T08:01:09.642Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 213,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.653Z",
+        "updated_at": "2019-07-03T08:01:09.653Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 214,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.669Z",
+        "updated_at": "2019-07-03T08:01:09.669Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 215,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.682Z",
+        "updated_at": "2019-07-03T08:01:09.682Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 216,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.695Z",
+        "updated_at": "2019-07-03T08:01:09.695Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 217,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.708Z",
+        "updated_at": "2019-07-03T08:01:09.708Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 218,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.719Z",
+        "updated_at": "2019-07-03T08:01:09.719Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 219,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.730Z",
+        "updated_at": "2019-07-03T08:01:09.730Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 37,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 220,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.743Z",
+        "updated_at": "2019-07-03T08:01:09.744Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 221,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.765Z",
+        "updated_at": "2019-07-03T08:01:09.765Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 222,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.776Z",
+        "updated_at": "2019-07-03T08:01:09.776Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 223,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.788Z",
+        "updated_at": "2019-07-03T08:01:09.788Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 224,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.800Z",
+        "updated_at": "2019-07-03T08:01:09.800Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 225,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.811Z",
+        "updated_at": "2019-07-03T08:01:09.811Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 226,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.824Z",
+        "updated_at": "2019-07-03T08:01:09.824Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 227,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.836Z",
+        "updated_at": "2019-07-03T08:01:09.836Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 228,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.848Z",
+        "updated_at": "2019-07-03T08:01:09.848Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 229,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.859Z",
+        "updated_at": "2019-07-03T08:01:09.859Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 230,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.870Z",
+        "updated_at": "2019-07-03T08:01:09.870Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 231,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.882Z",
+        "updated_at": "2019-07-03T08:01:09.882Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 232,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.894Z",
+        "updated_at": "2019-07-03T08:01:09.894Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 233,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.908Z",
+        "updated_at": "2019-07-03T08:01:09.908Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 32,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 234,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.921Z",
+        "updated_at": "2019-07-03T08:01:09.921Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 235,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.933Z",
+        "updated_at": "2019-07-03T08:01:09.933Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 4,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 236,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.945Z",
+        "updated_at": "2019-07-03T08:01:09.945Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 5,
+        "subject_teacher": 37,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 237,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.958Z",
+        "updated_at": "2019-07-03T08:01:09.958Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 6,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 238,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.970Z",
+        "updated_at": "2019-07-03T08:01:09.970Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 4,
+        "period_number": 7,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 239,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.982Z",
+        "updated_at": "2019-07-03T08:01:09.983Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 1,
+        "subject_teacher": 39,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 240,
+    "fields": {
+        "created_at": "2019-07-03T08:01:09.995Z",
+        "updated_at": "2019-07-03T08:01:09.995Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 2,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 241,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.008Z",
+        "updated_at": "2019-07-03T08:01:10.008Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 3,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 242,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.021Z",
+        "updated_at": "2019-07-03T08:01:10.021Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 4,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 243,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.034Z",
+        "updated_at": "2019-07-03T08:01:10.034Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 5,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 244,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.046Z",
+        "updated_at": "2019-07-03T08:01:10.046Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 6,
+        "subject_teacher": 24,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 245,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.057Z",
+        "updated_at": "2019-07-03T08:01:10.057Z",
+        "date_removed": null,
+        "classroom": 14,
+        "weekday": 5,
+        "period_number": 7,
+        "subject_teacher": 36,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 246,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.072Z",
+        "updated_at": "2019-07-03T08:01:10.072Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 1,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 247,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.084Z",
+        "updated_at": "2019-07-03T08:01:10.084Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 2,
+        "subject_teacher": 20,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 248,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.096Z",
+        "updated_at": "2019-07-03T08:01:10.096Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 3,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 249,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.108Z",
+        "updated_at": "2019-07-03T08:01:10.108Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 4,
+        "subject_teacher": 7,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 250,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.120Z",
+        "updated_at": "2019-07-03T08:01:10.120Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 5,
+        "subject_teacher": 45,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 251,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.132Z",
+        "updated_at": "2019-07-03T08:01:10.132Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 6,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 252,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.144Z",
+        "updated_at": "2019-07-03T08:01:10.144Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 1,
+        "period_number": 7,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 253,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.156Z",
+        "updated_at": "2019-07-03T08:01:10.156Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 1,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 254,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.168Z",
+        "updated_at": "2019-07-03T08:01:10.168Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 2,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 255,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.180Z",
+        "updated_at": "2019-07-03T08:01:10.180Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 3,
+        "subject_teacher": 2,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 256,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.192Z",
+        "updated_at": "2019-07-03T08:01:10.192Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 4,
+        "subject_teacher": 10,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 257,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.204Z",
+        "updated_at": "2019-07-03T08:01:10.204Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 5,
+        "subject_teacher": 8,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 258,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.218Z",
+        "updated_at": "2019-07-03T08:01:10.218Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 6,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 259,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.230Z",
+        "updated_at": "2019-07-03T08:01:10.230Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 2,
+        "period_number": 7,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 260,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.243Z",
+        "updated_at": "2019-07-03T08:01:10.243Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 1,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 261,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.255Z",
+        "updated_at": "2019-07-03T08:01:10.255Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 2,
+        "subject_teacher": 41,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 262,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.268Z",
+        "updated_at": "2019-07-03T08:01:10.268Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 3,
+        "subject_teacher": 8,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 263,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.280Z",
+        "updated_at": "2019-07-03T08:01:10.281Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 4,
+        "subject_teacher": 13,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 264,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.293Z",
+        "updated_at": "2019-07-03T08:01:10.293Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 5,
+        "subject_teacher": 7,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 265,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.306Z",
+        "updated_at": "2019-07-03T08:01:10.306Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 6,
+        "subject_teacher": 21,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 266,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.318Z",
+        "updated_at": "2019-07-03T08:01:10.319Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 3,
+        "period_number": 7,
+        "subject_teacher": 14,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 267,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.330Z",
+        "updated_at": "2019-07-03T08:01:10.330Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 4,
+        "period_number": 1,
+        "subject_teacher": 9,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 268,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.343Z",
+        "updated_at": "2019-07-03T08:01:10.343Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 4,
+        "period_number": 2,
+        "subject_teacher": 7,
+        "admission_year": 2020
+    }
+},
+{
+    "model": "classrooms.period",
+    "pk": 269,
+    "fields": {
+        "created_at": "2019-07-03T08:01:10.355Z",
+        "updated_at": "2019-07-03T08:01:10.356Z",
+        "date_removed": null,
+        "classroom": 1,
+        "weekday": 4,
+        "period_number": 3,
+        "subject_teacher": 8,
+        "admission_year": 2020
+    }
+}
+]

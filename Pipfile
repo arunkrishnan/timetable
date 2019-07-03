@@ -15,6 +15,7 @@ jupyter = "*"
 pytest-django = "*"
 Django = "*"
 xlrd = "*"
+django-extensions = "*"
 
 [requires]
 python_version = "3.6"

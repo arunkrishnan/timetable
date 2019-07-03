@@ -19,6 +19,9 @@ if the designated teacher is not available.
 ### Testing
     pipenv run python manage.py test
 
+### Load data
+    pipenv run ./manage.py loaddata schools/fixtures/cms.json
+    pipenv run ./manage.py loaddata classrooms/fixtures/cms.json
 
 ### APIs
 
